@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>(email value taken from GET single user response)</description>
+   <name>POST register succesful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>965f3e16-221e-48a5-8e31-43d56b9abe25</testCaseGuid>
+</TestCaseEntity>
