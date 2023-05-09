@@ -1,4 +1,4 @@
-# Loyalto-FIZKI </br>
+# Loyalto-FIZKI-ReqresAPI-KATALON</br>
 REQUIREMENTS </br>
 • Good internet connection </br>
 • Katalon Studio downloaded (https://www.katalon.com/katalon-studio) and installed </br>
