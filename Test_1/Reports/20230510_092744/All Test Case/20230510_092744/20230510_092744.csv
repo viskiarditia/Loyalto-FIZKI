@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All Test Case,,,,2023-05-10 09:27:56,2023-05-10 09:28:05,9.588s,PASSED
+,,,,,,,
+Test Cases/GET List Users - Invalid Parameter,,,,2023-05-10 09:27:56,2023-05-10 09:27:58,2.413s,PASSED
+"response = sendRequest(findTestObject(""GET List Users - Invalid Parameter""))",,,,2023-05-10 09:27:56,2023-05-10 09:27:58,1.886s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-05-10 09:27:58,2023-05-10 09:27:58,0.052s,PASSED
+"verifyElementPropertyValue(response, ""data[5].email"", ""tracey.ramos@reqres.in"")",,,,2023-05-10 09:27:58,2023-05-10 09:27:58,0.096s,PASSED
+,,,,,,,
+Test Cases/POST register succesful - Invalid Parameter,,(email value taken from GET single user response),,2023-05-10 09:27:58,2023-05-10 09:28:01,2.156s,PASSED
+"response = sendRequest(findTestObject(""POST register successful - Invalid Parameter""))",,,,2023-05-10 09:27:59,2023-05-10 09:28:01,1.892s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,2023-05-10 09:28:01,2023-05-10 09:28:01,0.006s,PASSED
+"verifyElementPropertyValue(response, ""email"", ""charles.morris@reqres.in"")",,,,2023-05-10 09:28:01,2023-05-10 09:28:01,0.045s,PASSED
+,,,,,,,
+Test Cases/PUT Update,,,,2023-05-10 09:28:01,2023-05-10 09:28:01,0.783s,PASSED
+"response = sendRequest(findTestObject(""PUT Update""))",,,,2023-05-10 09:28:01,2023-05-10 09:28:01,0.562s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-05-10 09:28:01,2023-05-10 09:28:01,0.016s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""viski"")",,,,2023-05-10 09:28:01,2023-05-10 09:28:01,0.030s,PASSED
+,,,,,,,
+Test Cases/PUT Update - Invalid Parameter,,,,2023-05-10 09:28:01,2023-05-10 09:28:02,0.932s,PASSED
+"response = sendRequest(findTestObject(""PUT Update - Invalid Parameter""))",,,,2023-05-10 09:28:02,2023-05-10 09:28:02,0.692s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-05-10 09:28:02,2023-05-10 09:28:02,0.008s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""viski"")",,,,2023-05-10 09:28:02,2023-05-10 09:28:02,0.053s,PASSED
+,,,,,,,
+Test Cases/GET Single User - Invalid Parameter,,,,2023-05-10 09:28:02,2023-05-10 09:28:03,0.971s,PASSED
+"response = sendRequest(findTestObject(""GET Single User - Invalid Parameter""))",,,,2023-05-10 09:28:03,2023-05-10 09:28:03,0.800s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2023-05-10 09:28:03,2023-05-10 09:28:03,0.009s,PASSED
+,,,,,,,
+Test Cases/GET Single User,,,,2023-05-10 09:28:03,2023-05-10 09:28:04,0.410s,PASSED
+"response = sendRequest(findTestObject(""GET Single User""))",,,,2023-05-10 09:28:04,2023-05-10 09:28:04,0.196s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-05-10 09:28:04,2023-05-10 09:28:04,0.004s,PASSED
+"verifyElementPropertyValue(response, ""data.email"", ""charles.morris@reqres.in"")",,,,2023-05-10 09:28:04,2023-05-10 09:28:04,0.025s,PASSED
+,,,,,,,
+Test Cases/GET List Users,,,,2023-05-10 09:28:04,2023-05-10 09:28:04,0.467s,PASSED
+"response = sendRequest(findTestObject(""GET List Users""))",,,,2023-05-10 09:28:04,2023-05-10 09:28:04,0.206s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-05-10 09:28:04,2023-05-10 09:28:04,0.008s,PASSED
+"verifyElementPropertyValue(response, ""data[5].email"", ""tracey.ramos@reqres.in"")",,,,2023-05-10 09:28:04,2023-05-10 09:28:04,0.084s,PASSED
+,,,,,,,
+Test Cases/POST register succesful,,(email value taken from GET single user response),,2023-05-10 09:28:04,2023-05-10 09:28:05,0.925s,PASSED
+"response = sendRequest(findTestObject(""POST register successful""))",,,,2023-05-10 09:28:04,2023-05-10 09:28:05,0.684s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-05-10 09:28:05,2023-05-10 09:28:05,0.005s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""5"")",,,,2023-05-10 09:28:05,2023-05-10 09:28:05,0.029s,PASSED

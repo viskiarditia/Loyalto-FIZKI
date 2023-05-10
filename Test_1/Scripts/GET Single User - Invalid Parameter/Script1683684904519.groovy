@@ -17,9 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('POST register successful'))
-
-WS.verifyResponseStatusCode(response, 200)
-
-WS.verifyElementPropertyValue(response, 'id', '5')
+response = WS.sendRequest(findTestObject('GET Single User - Invalid Parameter'))
+WS.verifyResponseStatusCode(response, 404)
 

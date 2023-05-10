@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GET Single User - Invalid Parameter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb68f6bd-117a-4cdd-af2b-9c0bf4ed0a13</testCaseGuid>
+</TestCaseEntity>

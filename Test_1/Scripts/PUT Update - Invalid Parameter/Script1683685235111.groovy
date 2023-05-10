@@ -17,9 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('POST register successful'))
-
+response = WS.sendRequest(findTestObject('PUT Update - Invalid Parameter'))
 WS.verifyResponseStatusCode(response, 200)
-
-WS.verifyElementPropertyValue(response, 'id', '5')
-
+WS.verifyElementPropertyValue(response, 'name', "viski")
